@@ -6,12 +6,12 @@ const List = (props) => {
     {
       label: "tesla",
       value:
-        "https://newsapi.org/v2/everything?q=tesla&from=2022-04-30&sortBy=publishedAt&apiKey=",
+        "https://newsapi.org/v2/everything?q=tesla&from=2023-06-30&sortBy=publishedAt&apiKey=",
     },
     {
       label: "Apple",
       value:
-        "https://newsapi.org/v2/everything?q=apple&from=2022-05-29&to=2022-05-29&sortBy=popularity&apiKey=",
+        "https://newsapi.org/v2/everything?q=apple&from=2023-06-29&to=2022-05-29&sortBy=popularity&apiKey=",
     },
     {
       label: "business",

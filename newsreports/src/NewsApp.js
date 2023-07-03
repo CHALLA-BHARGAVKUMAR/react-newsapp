@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 function NewsApp() {
   const navigate = useNavigate();
   const api_key = process.env.REACT_APP_NEWS_API_KEY;
-  // const apiadd = `https://newsapi.org/v2/everything?q=tesla&from=2022-04-30&sortBy=publishedAt&apiKey=${api_key}`;
 
   const [Articles, setArticles] = useState([]);
 
